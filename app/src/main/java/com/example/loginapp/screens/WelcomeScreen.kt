@@ -97,7 +97,7 @@ fun WelcomeScreen(navController: NavController) {
 
             Button(
                 onClick = {
-
+                    navController.navigate("sign-up")
                 },
                 colors = ButtonDefaults.buttonColors(
                     containerColor = Color(81, 78, 184),
