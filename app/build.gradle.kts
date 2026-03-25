@@ -39,6 +39,8 @@ android {
 
 dependencies {
     implementation(libs.androidx.compose.foundation.layout)
+    implementation(libs.androidx.compose.foundation)
+    implementation(libs.androidx.material3)
     val nav_version = "2.9.7"
     implementation("androidx.navigation:navigation-compose:$nav_version")
 

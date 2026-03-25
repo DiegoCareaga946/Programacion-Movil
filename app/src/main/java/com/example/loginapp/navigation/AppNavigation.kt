@@ -13,7 +13,7 @@ fun AppNavigation(){
     val navController = rememberNavController()
     NavHost(
         navController = navController,
-        startDestination = "welcome"
+        startDestination = "contacts"
     ){
         composable("welcome") {
             WelcomeScreen(navController)
@@ -22,6 +22,9 @@ fun AppNavigation(){
             LoginScreen(navController)
         }
         composable("sign-up"){
+            SignUpScreen(navController)
+        }
+        composable("contacts"){
             SignUpScreen(navController)
         }
 
